@@ -1,0 +1,125 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+          margin: 0;
+          padding: 0;
+}
+.enjoy{
+          position: relative;
+          display: flex;
+          color: white;
+          max-width: calc(66%-6rem);
+          margin: auto;
+          padding: 25px;
+          
+
+          
+}
+.enjoy img{
+          position: relative;
+          top: 0;
+
+          z-index: 1;
+          width: 30vw;
+}
+.en-span{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          max-width: 43rem;
+          margin: auto;
+          align-items: center;
+          gap: 15px;
+}
+.en-span> :nth-child(1){
+          font-size: 40px;
+          font-weight: 900;
+}
+.en-span> :nth-child(2){
+          margin-left:  19px;
+          max-width: 400px;
+          
+}
+.enjoy video{ 
+          top: 93px;
+          right: 85px;
+          width: 310px;
+          position: absolute;
+          background-attachment: fixed;
+          
+}
+
+.download{
+          color: aliceblue;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 0 0 62px 0;
+          max-width: 80vw;
+          margin: auto;
+          
+}
+.down_span{
+          display: flex;
+          flex-direction: column;
+          margin-right: 72px;
+          
+}
+.down_span> :nth-child(1){
+          font-size: 34px;
+          font-weight: 900;
+
+}
+
+.faq{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 24px;
+          
+          color: white;
+          
+}
+.faq>:nth-child(1){
+          font-size: 34px;
+          font-weight: 900;
+          margin: 34px 0 22px 0;
+}
+.faq-box{
+          background-color: rgb(62, 61, 61);
+          width: 70%;
+          display: flex;
+          font-family: 'Roboto', sans-serif;
+          
+          justify-content: space-between;
+          align-items: center;
+          padding: 12px;
+          margin-bottom: 12px;
+          
+}
+.faq-box:hover{
+          background-color: rgba(62, 61, 61, 0.667);
+}
+footer{
+          color: white;
+          font-family: 'Roboto', sans-serif;
+          padding: 34px;
+          
+}
+footer div{
+          margin: 25px;
+}
+footer ul li {
+          list-style: none;
+          text-decoration: none;
+          display: grid;
+          margin-left: 34px;
+          
+
+}
+footer ul li a{
+          color: azure;
+          margin: 5px
+}
+
